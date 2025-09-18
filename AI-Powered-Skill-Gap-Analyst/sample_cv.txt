@@ -1,0 +1,51 @@
+John Doe
+AI Engineer | Machine Learning Specialist
+john.doe@email.com | (123) 456-7890 | https://www.google.com/search?q=linkedin.com/in/johndoe
+
+--- Summary ---
+Results-driven AI Engineer with 5+ years of experience in designing, developing, and deploying machine learning models to solve real-world business problems. Proven ability to lead projects from concept to production. Expertise in Natural Language Processing (NLP), computer vision, and predictive analytics.
+
+--- Experience ---
+Machine Learning Engineer, TechCorp Inc. (2020 - Present)
+
+Led the development of a customer churn prediction model using Python, Scikit-learn, and TensorFlow, resulting in a 15% reduction in customer attrition.
+
+Designed and implemented a real-time recommendation engine using collaborative filtering, which increased user engagement by 20%.
+
+Deployed and maintained machine learning models on AWS, utilizing services like SageMaker, S3, and Lambda for scalable and robust solutions.
+
+Collaborated with cross-functional teams to integrate ML models into production applications.
+
+Data Scientist, Data Insights LLC (2018 - 2020)
+
+Performed exploratory data analysis and feature engineering on large datasets.
+
+Built and validated predictive models for various business use cases.
+
+--- Education ---
+Master of Science in Computer Science
+University of Technology, 2018
+
+Bachelor of Science in Computer Engineering
+State University, 2016
+
+--- Skills ---
+
+Programming: Python (Expert), SQL, Java
+
+ML/DL Frameworks: TensorFlow, PyTorch, Scikit-learn, Keras
+
+NLP: Transformers, Hugging Face, NLTK
+
+Cloud & MLOps: AWS (S3, EC2, SageMaker), Docker, Git
+
+Databases: PostgreSQL, MongoDB
+
+--- Projects ---
+Personal Project: LangChain PDF Analyzer
+
+Developed a question-answering application over PDF documents using LangChain and OpenAI APIs.
+
+Built a user-friendly interface with Streamlit.
+
+This project demonstrates an understanding of Retrieval Augmented Generation (RAG) and vector databases.

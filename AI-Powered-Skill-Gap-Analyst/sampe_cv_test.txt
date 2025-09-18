@@ -1,0 +1,54 @@
+This version is slightly more detailed, using more action-oriented verbs to describe the work.
+
+John Doe
+Machine Learning Engineer | MLOps Specialist
+john.doe@email.com | (123) 456-7890 | linkedin.com/in/johndoe
+
+Summary
+Dedicated and results-driven Machine Learning Engineer with over 5 years of hands-on experience in the end-to-end ML lifecycle, from data exploration to model deployment and maintenance. Skilled in building and deploying scalable machine learning systems on the cloud, with a deep understanding of MLOps principles. Core competencies include Natural Language Processing (NLP), computer vision, and predictive analytics.
+
+Experience
+
+Machine Learning Engineer, TechCorp Inc. (2020 - Present)
+
+Pioneered the development of a customer churn prediction model using Python, Scikit-learn, and TensorFlow, leading to a quantifiable 15% reduction in customer attrition.
+
+Developed and operationalized a real-time recommendation engine using collaborative filtering, directly contributing to a 20% increase in user engagement.
+
+Managed the end-to-end deployment pipeline for ML models on AWS, leveraging services such as SageMaker, S3, and Lambda to ensure scalability, reliability, and automated updates.
+
+Spearheaded collaborations with product and engineering teams to seamlessly integrate trained models into core production applications.
+
+Data Scientist, Data Insights LLC (2018 - 2020)
+
+Conducted in-depth exploratory data analysis and advanced feature engineering to prepare complex datasets for modeling.
+
+Constructed, trained, and validated predictive models for various business use cases, providing data-driven insights.
+
+Education
+
+Master of Science in Computer Science, University of Technology, 2018
+
+Bachelor of Science in Computer Engineering, State University, 2016
+
+Skills
+
+Programming: Python (Expert), SQL, Java
+
+ML/DL Frameworks: TensorFlow, PyTorch, Scikit-learn, Keras
+
+NLP: Transformers, Hugging Face, NLTK, spaCy
+
+Cloud & MLOps: AWS (SageMaker, S3, EC2, Lambda), Docker, Git, Kubernetes, CI/CD, MLOps
+
+Databases: PostgreSQL, MongoDB, DynamoDB
+
+Projects
+
+Personal Project: LangChain PDF Analyzer
+
+Developed a cutting-edge question-answering application that interacts with PDF documents, utilizing LangChain and OpenAI APIs.
+
+This project demonstrates practical experience with Retrieval Augmented Generation (RAG) and building full-stack ML applications.
+
+Designed and implemented a clean, functional user interface using Streamlit for easy access and demonstration.
