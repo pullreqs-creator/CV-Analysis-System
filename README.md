@@ -7,20 +7,58 @@ CV-Analysis-System is an AI-powered multi-agent system designed to assist techni
 
 ### Architectural Overview
 
-The workflow consists of the following agents:
+The CV-Analysis-System operates as a multi-agent pipeline, where each agent performs a distinct step in the skill gap analysis process. The overall workflow looks like this:
 
-- **CV Parsing & Normalization Agent**: Parses raw CV text and converts it to structured JSON, extracting experience, skills, education, and more.
-- **Specialized Skill Analyst Agent**: Identifies explicit and implicit skills from the CV (e.g., inferring LLM knowledge).
-- **Market Intelligence Agent**: Queries real-time job listings via the JSearch API to aggregate in-demand skills and technologies.
-- **Gap Analysis Agent**: Compares candidate skills to market needs and generates a structured gap analysis.
-- **Report Formatting Agent**: Outputs the final, human-readable skill gap report in Markdown.
-
-Workflow:
 ```
-[Start] → [CV Parser] → [Skill Analyst] → [Market Analyst] → [Gap Analyzer] → [Report Formatter] → [End]
+Start
+  │
+  ▼
+[CV Parser]
+  │
+  ▼
+[Skill Analyst]
+  │
+  ▼
+[Market Analyst]
+  │
+  ▼
+[Gap Analyzer]
+  │
+  ▼
+[Report Formatter]
+  │
+  ▼
+End
 ```
 
----
+#### Agent Responsibilities
+
+1. **CV Parser:**  
+   - Ingests the raw CV text.
+   - Extracts and normalizes information such as work experience, skills, education, and projects.
+   - Outputs a structured JSON for downstream analysis.
+
+2. **Skill Analyst:**  
+   - Analyzes the structured CV data.
+   - Identifies both explicit (listed) and implicit (inferred) skills.
+   - Infers advanced technical skills from context (e.g., use of AI frameworks).
+
+3. **Market Analyst:**  
+   - Queries real-time job data using the JSearch API.
+   - Aggregates current market demand for skills and technologies for the specified role.
+   - Summarizes in-demand skills and requirements from job listings.
+
+4. **Gap Analyzer:**  
+   - Compares the candidate’s skills profile against the market demands.
+   - Identifies missing or underrepresented skills.
+   - Produces a structured gap analysis highlighting areas for improvement.
+
+5. **Report Formatter:**  
+   - Assembles results from all previous agents.
+   - Formats the skill gap analysis into a clear, actionable Markdown report for recruiters or candidates.
+
+This modular, agent-driven workflow ensures each component is focused, maintainable, and extensible for future upgrades.
+
 
 ## 2. Environment Setup
 
